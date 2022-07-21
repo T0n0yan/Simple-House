@@ -97,23 +97,19 @@
 
 @media screen and (max-width: 991px) {
   .mainContainer {
-    border: 1px solid teal;
     width: 100%;
     .leftSide {
       width: 50%;
       background-size: cover;
       background-repeat: no-repeat;
       height: 250px;
-      border: 2px solid orange;
     }
     .rightSide {
       width: 50%;
       height: 250px;
       padding-left: 10px;
       position: relative;
-      border: 1px solid black;
       .button {
-        border: 5px solid teal;
         position: absolute;
         right: 0;
         bottom: 0;
@@ -132,23 +128,19 @@
 
 @media screen and (max-width: 1140px) {
   .mainContainer {
-    border: 1px solid teal;
     width: 100%;
     .leftSide {
       width: 50%;
       background-size: cover;
       background-repeat: no-repeat;
       height: 250px;
-      border: 2px solid orange;
     }
     .rightSide {
       width: 50%;
       height: 250px;
       padding-left: 10px;
       position: relative;
-      border: 1px solid black;
       .button {
-        border: 5px solid teal;
         position: absolute;
         right: 0;
         bottom: 0;
@@ -182,7 +174,6 @@
     }
   }
   .postContainer{
-    border: 2px solid orange;
     width: 70%;
     margin: 10px  auto 30px auto;
   }
@@ -191,3 +182,4 @@
     margin: 20px auto;
   }
 }
+
