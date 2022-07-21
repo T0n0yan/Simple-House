@@ -1,0 +1,35 @@
+.container {
+  width: 500px;
+  height: 250px;
+  display: flex;
+  margin: 35px auto;
+  .leftSide {
+    width: 160px;
+    height: 100%;
+  }
+  .rightSide {
+    width: 330px;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-direction: column;
+    line-height: 1;
+    margin-left: 20px;
+    .name {
+      font-size: 26px;
+      color: #09c;
+    }
+    .proffesion {
+      color: #c39;
+      margin: 20px 0 ;
+      font-weight: 600;
+    }
+    .bio{
+        color: #626364;
+        line-height: 1.8;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+  }
+}
