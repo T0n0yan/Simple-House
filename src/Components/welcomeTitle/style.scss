@@ -1,21 +1,68 @@
-.titleContainer{
-    .title {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        font-family: 'Open Sans', sans-serif;
-        h2 {
-            width: 655px;
-          font-size: 34px;
-          padding: 25px;
-        }
-        span {
-            width: 655px;
-          font-style: 17px;
-          color: #626364;
-          font-weight: 600;
-        }
-      }
+@import "../../assets/Styles/media.scss";
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  h2 {
+    width: max-content;
+    font-size: 34px;
+    padding: 25px;
+  }
+  span {
+    width: 655px;
+    font-style: 17px;
+    color: #626364;
+    font-weight: 600;
+    line-height: 2;
+  }
+}
+
+@media (max-width: $breckpoint_xxl) {
+  .title {
+    width: 100%;
+    h2 {
+      width: 600px;
+    }
+    span {
+      width: 600px;
+    }
+  }
+}
+
+@media (max-width: $breckpoint_xl) {
+  .title {
+    width: 100%;
+    h2 {
+      width: 550px;
+    }
+    span {
+      width: 550px;
+    }
+  }
+}
+
+@media (max-width: $breckpoint_md) {
+  .title {
+    width: 100%;
+    h2 {
+      width: 500px;
+    }
+    span {
+      width: 500px;
+    }
+  }
+}
+@media (max-width: $breckpoint_sm) {
+  .title {
+    h2 {
+      width: 500px;
+    }
+    span {
+      width: 450px;
+    }
+  }
 }

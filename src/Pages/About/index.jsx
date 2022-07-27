@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import WelcomeTitle from "../../Components/welcomeTitle";
 import "./style.scss";
 import StaffContainer from "./Pages/Staff";
@@ -42,9 +42,7 @@ const About = () => {
             Sed ligula risus, interdum aliquet imperdiet sit amet, auctor sit
             amet justo. Maecenas posuere lorem id augue interdum vehicula.
             Praesent sed leo eget libero ultricies congue.
-          </span>
-          <br />
-          <br />
+          </span><br/>
           <span>
             Redistributing this template as a downloadable ZIP file on any
             template collection site is strictly prohibited. You will need to

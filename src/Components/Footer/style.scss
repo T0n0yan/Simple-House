@@ -1,6 +1,19 @@
-.footer{
-    font-size: 17px;
-    font-weight: 600;
-    color: #626364;
-    padding-bottom: 25px;
+@import "../../assets/Styles/media.scss";
+
+.footer {
+  font-size: 17px;
+  font-weight: 600;
+  color: #626364;
+  padding-bottom: 25px;
+}
+
+@media (max-width: $breckpoint_xxl) {
+}
+
+@media (max-width: $breckpoint_xl) {
+}
+
+@media (max-width: $breckpoint_md) {
+}
+@media (max-width: $breckpoint_sm) {
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import './assets/Styles/Global.scss'
 import "./App.css";
+import './assets/Icons/style.css'
 import Header from "./Components/Header";
 import About from "./Pages/About";
 import Footer from "./Components/Footer";

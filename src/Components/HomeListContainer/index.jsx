@@ -4,7 +4,7 @@ import "./style.scss";
 const ListContainer = (props) => {
   const food = props.food
   return (
-    <div className="G-Container">
+
       <div className="listContainer">
         <div className="g-backgroundimg topContainer" style={{backgroundImage:`url('${food.img}')`}}></div>
         <div className="btnContainer">
@@ -13,7 +13,6 @@ const ListContainer = (props) => {
           <div className="price">{food.price}</div>
         </div>
       </div>
-    </div>
   );
 };
 

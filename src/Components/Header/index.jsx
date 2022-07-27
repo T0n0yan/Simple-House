@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import {NavLink } from "react-router-dom";
 import "./style.scss";
 import bgImage from "../../assets/Images/simple-house-01.jpg";
 import logo from "../../assets/Images/simple-house-logo.png";
@@ -7,15 +7,14 @@ import "../../assets/Styles/Global.scss";
 
 const Header = () => {
   return (
-    <div className=" header " style={{ backgroundImage: `url('${bgImage}')` , backgroundAttachment:'fixed' }}>
-      <div className=" G-Container ">
+    <div className=" header " style={{ backgroundImage: `url('${bgImage}')` ,  }}>
         <div className="headerContainer">
           <div className=" logoBlock">
             <div
-              className="G-Container logo"
+              className="logo"
               style={{ backgroundImage: `url('${logo}')` }}
             />
-            <div className="G-Container logoTitle">
+            <div className=" logoTitle">
               <h1>Simple House</h1>
               <h4>new restaurant template</h4>
             </div>
@@ -33,7 +32,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -11,7 +11,6 @@ const FaqsItems = (props) => {
     setState(!state);
   };
   return (
-    <div className="G-Container">
       <div className={state ? "F-containerDisabled" : 'F-containerActive'}>
         <button
           onClick={activator}
@@ -24,7 +23,6 @@ const FaqsItems = (props) => {
           {description}
         </div>
       </div>
-    </div>
   );
 };
 

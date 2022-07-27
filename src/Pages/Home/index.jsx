@@ -15,12 +15,21 @@ const Home = () => {
 
   const pizzaFoo = () => {
     setActive(pizza);
+    setActiveBtn(true);
+    setActiveBtn1(false);
+    setActiveBtn2(false);
   };
   const saladFoo = () => {
     setActive(salad);
+    setActiveBtn(false);
+    setActiveBtn1(true);
+    setActiveBtn2(false);
   };
   const noodleFoo = () => {
     setActive(noodle);
+    setActiveBtn(false);
+    setActiveBtn1(false);
+    setActiveBtn2(true);
   };
 
   return (
@@ -52,7 +61,7 @@ const Home = () => {
           </button>
         </div>
 
-        <div className="G-Container postContainer">
+        <div className="postContainer">
           {active.map((el) => (
             <ListContainer food={el} />
           ))}

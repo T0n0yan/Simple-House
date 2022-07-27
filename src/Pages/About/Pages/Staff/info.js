@@ -5,8 +5,7 @@ const info = [
     img: page2Images.i1,
     name: "Jennifer Soft",
     proffesion: "Founder and CEO",
-    biogrophie:
-      "Vivamus cursus leo nec sem feugiat sagittis. Duis ut feugiat odio, sit amet accumsan odio.",
+    biogrophie:"Vivamus cursus leo nec sem feugiat sagittis. Duis ut feugiat odio, sit amet accumsan odio.",
     twitter: "icon-twitter",
     facebook: "icon-facebook",
     instagram: "icon-instagram",
@@ -17,8 +16,7 @@ const info = [
     img: page2Images.i2,
     name: "Daisy Walker",
     proffesion: "Executive Chef",
-    biogrophie:
-      "Praesent non vulputate elit. Orci varius natoque et magnis dis parturient, nascetur ridiculus mus.",
+    biogrophie:"Praesent non vulputate elit. Orci varius natoque et magnis dis parturient, nascetur ridiculus mus.",
     twitter: "icon-twitter",
     facebook: "icon-facebook",
     instagram: "",
@@ -30,8 +28,7 @@ const info = [
     img: page2Images.i3,
     name: "Florence Nelson",
     proffesion: "Kitchen Manager",
-    biogrophie:
-      "Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.",
+    biogrophie:"Aenean sapien sem, ultricies sed vulputate et, auctor vel mauris. Integer sit amet diam eget est facilisis lacinia vitae.",
     twitter: "",
     facebook: "icon-facebook",
     instagram: "icon-instagram",
@@ -42,8 +39,7 @@ const info = [
     img: page2Images.i4,
     name: "Valentina Martin",
     proffesion: "Culinary Director",
-    biogrophie:
-      "Praesent non vulputate elit. Orci varius natoque penatibus et magnis montes, nascetur ridiculus mus.",
+    biogrophie:"Praesent non vulputate elit. Orci varius natoque penatibus et magnis montes, nascetur ridiculus mus.",
     twitter: "icon-twitter",
     facebook: "icon-facebook",
     instagram: "icon-instagram",

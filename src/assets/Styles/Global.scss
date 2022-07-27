@@ -1,40 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Righteous&family=Roboto:ital@1&display=swap");
-
-@media screen and (max-width: 1200px) {
-  .G-Container {
-    max-width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto;
-    font-family: "Open Sans", sans-serif;
-  }
-}
-@media screen and (max-width: 1130px) {
-  .G-Container {
-    max-width: 1130pxx;
-    padding: 0 10px;
-    margin: 0 auto;
-    font-family: "Open Sans", sans-serif;
-    // border: 2px solid orange;
-  }
-}
-@media screen and (max-width: 991px) {
-  .G-Container {
-    max-width: 100%;
-    font-family: "Open Sans", sans-serif;
-    // border: 2px solid yellow;
-  }
-}
-
-
-@media screen and (max-width: 767px) {
-  .G-Container {
-    // border: 2px solid green;
-    max-width: 767px;
-    padding: 0 10px;
-    margin: 0 auto;
-    font-family: "Open Sans", sans-serif;
-  }
-}
+@import "./media.scss";
 
 .G-Container {
   max-width: 1200px;
@@ -47,4 +12,34 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media (max-width: $breckpoint_xxl) {
+  .G-Container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+@media (max-width: $breckpoint_xl) {
+  .G-Container {
+    max-width: 100%;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+@media (max-width: $breckpoint_md) {
+  .G-Container {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+@media (max-width: $breckpoint_sm) {
+  .G-Container {
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Open Sans", sans-serif;
+  }
 }
