@@ -67,8 +67,7 @@ const Home = () => {
           ))}
         </div>
 
-        {/* <ItemDescription />
-         */}
+      
 
         <div className="mainContainer">
           <div className="leftSide"></div>
