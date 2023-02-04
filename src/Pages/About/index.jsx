@@ -22,7 +22,7 @@ const About = () => {
 
       <div
         className="G-Container backgroundImg"
-        style={{ backgroundImage: `url(/img/download.png)` }}
+        style={{ backgroundImage: `url(/img/download.jpg)` }}
       ></div>
 
       <div className="G-Container ">
